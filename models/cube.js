@@ -38,8 +38,6 @@ class Cube {
                 console.log('New cube is successguly stored')
             } )
 
-
-
         })
         
     }
