@@ -4,9 +4,8 @@ const bodyParser = require('body-parser');
 
 module.exports = (app) => {
     
-    //TODO: Setup the view engine
-
-    //TODO: Setup the body parser
+    app.engine('.hbs', handlebars());
+    app.set('view engine', '.hbs');
 
     //TODO: Setup the static files
 
